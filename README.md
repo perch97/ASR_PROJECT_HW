@@ -74,10 +74,10 @@
 ## Логи обучения
 
 
-Логи обучения с использованием варианта train_argmax.yaml доступны [по ссылке.](https://wandb.ai/vadim-smir97-simon-fraser-university/ASR_HW/runs/9cwgliuq/logs)
+Логи обучения с использованием варианта train_argmax.yaml находятся [по ссылке.](https://wandb.ai/vadim-smir97-simon-fraser-university/ASR_HW/runs/9cwgliuq/logs)
 обучение с конфигурацией`-cn=train_argmax` - более 2х часов на A100 GPU.
 
-[Ссылка на `W&B`](https://wandb.ai/vadim-smir97-simon-fraser-university/ASR_HW?nw=nwuservadimsmir97)
+[`W&B`](https://wandb.ai/vadim-smir97-simon-fraser-university/ASR_HW?nw=nwuservadimsmir97)
 
 
 
