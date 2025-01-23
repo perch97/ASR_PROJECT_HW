@@ -1,0 +1,9 @@
+_target_: src.logger.WandBWriter
+project_name: "ASR_HW"
+entity: null
+run_name: "testing"
+mode: "online"
+loss_names: ["loss"] 
+log_checkpoints: True 
+id_length: 8 
+api_key: ${oc.env:WANDB_API_KEY} 

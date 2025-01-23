@@ -1,0 +1,14 @@
+train:
+  get_spectrogram: # special key for getting spectrogram
+    _target_: torchaudio.transforms.MelSpectrogram
+    sample_rate: 16000
+  audio: # name of the tensor on which we apply transform
+    _target_: src.transforms.RandomApply
+    p: 1
+    augmentation:
+      _target_: src.transforms.wav_augs.Fading
+      alpha: 0.4
+inference:
+  get_spectrogram:
+    _target_: torchaudio.transforms.MelSpectrogram
+    sample_rate: 16000
